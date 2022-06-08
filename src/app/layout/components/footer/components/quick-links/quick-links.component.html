@@ -1,0 +1,13 @@
+<h6 class="cl-gold pb-3">Quick links</h6>
+<ul>
+    <ng-container *ngFor="let d of data">
+        <li>
+            <i class="bi bi-arrow-return-right cl-gold me-1"></i>
+            <a routerLink="d.path">{{d.name}}</a>
+        </li>
+    </ng-container>
+    <li>
+        <i class="bi bi-arrow-return-right cl-gold me-1"></i>
+        <a href="assets/documentation/documentation.pdf" target="blank">Documentation</a>
+    </li>
+</ul>

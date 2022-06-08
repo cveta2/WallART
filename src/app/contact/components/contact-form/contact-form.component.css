@@ -1,0 +1,12 @@
+.contact-form{
+    background-color: #ffffff;
+    width: 60%;
+}
+.mat-raised-button.mat-primary{
+    background-color: #daa520 !important;
+}
+@media screen and (max-width: 768px){
+    .contact-form{
+        width: 80%;
+    }
+}

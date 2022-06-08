@@ -1,0 +1,32 @@
+.gallery-image-card{
+    position: absolute;
+    top: 25%;
+    right: -0.5%;
+    width: 300px;
+    height: 125px;
+    z-index: 10;
+    box-shadow: 3px 3px 3px #c2c2c2;
+    background-color:  #fff;
+}
+.banner{
+    height: 300px;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 768px){
+    .gallery-image-card{
+        position: static;
+        width: 100%;
+        box-shadow: none !important;
+        background-color:  #fff;
+    }
+    .banner img{
+        position: static;
+    }
+}

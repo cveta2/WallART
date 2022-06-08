@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Lines"
+    },
+    {
+        "id": 2,
+        "name": "Shapes"
+    },
+    {
+        "id": 3,
+        "name": "Real objects"
+    },
+    {
+        "id": 4,
+        "name": "Abstract paintings"
+    },
+    {
+        "id": 5,
+        "name": "Nature"
+    },
+    {
+        "id": 6,
+        "name": "City"
+    },
+    {
+        "id": 7,
+        "name": "People"
+    }
+]

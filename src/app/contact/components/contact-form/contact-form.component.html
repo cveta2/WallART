@@ -1,0 +1,46 @@
+<div class=" mt-5 pt-5 mb-5 pb-5 bg-light text-center">
+    <p>Feel free to contact us for any question, suggestion or compliment! </p>
+   <div class="container contact-form">
+    <div class=" p-5">
+        <form [formGroup]="form.form" (ngSubmit)="onSubmit()">
+            <div class="row d-flex justify-contect-around">
+                <div class="col-6">
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>First name</mat-label>
+                        <input matInput placeholder="First name" formControlName="firstName">
+                        <mat-error *ngIf="form.form.get('firstName')?.hasError('required')">First name is required</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col-6">
+                    <mat-form-field appearance="outline" class="w-100">
+                        <mat-label>Last name</mat-label>
+                        <input matInput placeholder="Last name" formControlName="lastName" >
+                        <mat-error *ngIf="form.form.get('lastName')?.hasError('required')">Last name is required</mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="email" formControlName="email">
+                    <mat-error *ngIf="form.form.get('email')?.hasError('required')">Email is required</mat-error>
+                    <mat-error *ngIf="form.form.get('email')?.hasError('email')">Email is not in correct format.</mat-error>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Message</mat-label>
+                    <textarea matInput required placeholder="Message" formControlName="message"></textarea>
+                    <mat-error *ngIf="form.form.get('message')?.hasError('required')">Message is required</mat-error>
+                  </mat-form-field>
+            </div>
+            <div class=text-center>
+                <button type="submit" mat-raised-button color="primary" [disabled]="form.form.invalid">Submit</button>
+            </div>
+            <!-- <ng-container *ngIf="message !== ''">
+                <p class="cl-green mt-2">{{ message }}</p>
+            </ng-container> -->
+        </form>
+    </div>
+   </div>
+</div>

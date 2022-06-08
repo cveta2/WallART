@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Artful lines",
+        "categoryId": 1,
+        "dimensionsId": 3,
+        "price": 150.99,
+        "description": "Simple abstract line on grey and white background.",
+        "image": "artful-lines.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bernil shapes",
+        "categoryId": 2,
+        "dimensionsId": 2,
+        "price": 175.99,
+        "description": "Graphic illustration with black and beige shapes and circles against a grey-beige background, with an uneven colour effect.",
+        "image": "bernil-shapes.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Chini pot",
+        "categoryId": 3,
+        "dimensionsId": 1,
+        "price": 115.99,
+        "description": "Photograph of a clay pot with stucco in beige colours. Add a print with history combined with a modern style on your walls.",
+        "image": "chini-pot.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Colorful abstraction",
+        "categoryId": 4,
+        "dimensionsId": 5,
+        "price": 179.99,
+        "description": "Abstract painting of pinkish tones mixed with white tones.",
+        "image": "colorful.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Imagination",
+        "categoryId": 4,
+        "dimensionsId": 5,
+        "price": 130.99,
+        "description": "Abstract watercolour painting in beige, grey and blue. If you want your art to blend in with the interior in your home, abstract art in muted and earthy hues are perfect.",
+        "image": "imagination.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Kerni shapes",
+        "categoryId": 2,
+        "dimensionsId": 2,
+        "price": 165.99,
+        "description": "Graphic illustration with overlapping circles in black and beige on a grey-beige background with an uneven colour effect.",
+        "image": "kerni-shapes.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Leaves",
+        "categoryId": 5,
+        "dimensionsId": 3,
+        "price": 129.99,
+        "description": "Photograph of dried palm leaves in beige. Create a bohemian feel to your walls with this serene painting.",
+        "image": "leaves.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Olive",
+        "categoryId": 5,
+        "dimensionsId": 2,
+        "price": 119.99,
+        "description": "Painting of an lonely olive gives you escape to peaceful place.",
+        "image": "olive.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Narrow street",
+        "categoryId": 6,
+        "dimensionsId": 1,
+        "price": 167.99,
+        "description": "Bring island magic into your home with this quaint photograph of a Spanish alleyway.",
+        "image": "narrow-street.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Simple",
+        "categoryId": 7,
+        "dimensionsId": 4,
+        "price": 159.99,
+        "description": "Woman with big hat on her head enjoying sun on vacation.",
+        "image": "simple.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Soft lines",
+        "categoryId": 1,
+        "dimensionsId": 2,
+        "price": 120.99,
+        "description": "Soft abstract black lines on greyish background.",
+        "image": "soft-lines.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Sunny beach",
+        "categoryId": 5,
+        "dimensionsId": 2,
+        "price": 136.99,
+        "description": "Lovely painting with beige tones to add in your living room or bedroom to create a feeling of relaxation and calmness.",
+        "image": "sunny-beach.jpg"
+    }
+]
